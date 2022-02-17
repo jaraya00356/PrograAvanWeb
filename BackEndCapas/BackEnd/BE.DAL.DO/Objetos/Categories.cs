@@ -5,13 +5,13 @@ using System.Collections.Generic;
 // If you have enabled NRTs for your project, then un-comment the following line:
 // #nullable disable
 
-namespace API.Models
+namespace BE.DAL.DO.Objetos
 {
     public partial class Categories
     {
         public Categories()
         {
-            Products = new HashSet<Products>();
+           // Products = new HashSet<Products>();
         }
 
         public int CategoryId { get; set; }
@@ -19,6 +19,6 @@ namespace API.Models
         public string Description { get; set; }
         public byte[] Picture { get; set; }
 
-        public virtual ICollection<Products> Products { get; set; }
+        //public virtual ICollection<Products> Products { get; set; }
     }
 }

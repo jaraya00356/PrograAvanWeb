@@ -10,3 +10,13 @@ C:\Users\jlap0\Documents\GitHub\PrograAvanWeb\BackEndCapas\BackEnd\BE.BS\obj\Deb
 C:\Users\jlap0\Documents\GitHub\PrograAvanWeb\BackEndCapas\BackEnd\BE.BS\obj\Debug\netcoreapp3.1\BE.BS.dll
 C:\Users\jlap0\Documents\GitHub\PrograAvanWeb\BackEndCapas\BackEnd\BE.BS\obj\Debug\netcoreapp3.1\BE.BS.pdb
 C:\Users\jlap0\Documents\GitHub\PrograAvanWeb\BackEndCapas\BackEnd\BE.BS\obj\Debug\netcoreapp3.1\BE.BS.genruntimeconfig.cache
+C:\Users\jlap0\Documents\GitHub\PrograAvanWeb\BackEndCapas\BackEnd\BE.BS\obj\Debug\netcoreapp3.1\BE.BS.csproj.AssemblyReference.cache
+C:\Users\jlap0\Documents\GitHub\PrograAvanWeb\BackEndCapas\BackEnd\BE.BS\bin\Debug\netcoreapp3.1\BE.DAL.dll
+C:\Users\jlap0\Documents\GitHub\PrograAvanWeb\BackEndCapas\BackEnd\BE.BS\bin\Debug\netcoreapp3.1\BE.DAL.DO.dll
+C:\Users\jlap0\Documents\GitHub\PrograAvanWeb\BackEndCapas\BackEnd\BE.BS\bin\Debug\netcoreapp3.1\BE.DAL.EF.dll
+C:\Users\jlap0\Documents\GitHub\PrograAvanWeb\BackEndCapas\BackEnd\BE.BS\bin\Debug\netcoreapp3.1\BE.DAL.Repository.dll
+C:\Users\jlap0\Documents\GitHub\PrograAvanWeb\BackEndCapas\BackEnd\BE.BS\bin\Debug\netcoreapp3.1\BE.DAL.DO.pdb
+C:\Users\jlap0\Documents\GitHub\PrograAvanWeb\BackEndCapas\BackEnd\BE.BS\bin\Debug\netcoreapp3.1\BE.DAL.pdb
+C:\Users\jlap0\Documents\GitHub\PrograAvanWeb\BackEndCapas\BackEnd\BE.BS\bin\Debug\netcoreapp3.1\BE.DAL.EF.pdb
+C:\Users\jlap0\Documents\GitHub\PrograAvanWeb\BackEndCapas\BackEnd\BE.BS\bin\Debug\netcoreapp3.1\BE.DAL.Repository.pdb
+C:\Users\jlap0\Documents\GitHub\PrograAvanWeb\BackEndCapas\BackEnd\BE.BS\obj\Debug\netcoreapp3.1\BE.BS.csproj.CopyComplete

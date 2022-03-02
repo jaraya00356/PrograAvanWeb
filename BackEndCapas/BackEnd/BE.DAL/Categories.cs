@@ -20,12 +20,13 @@ namespace BE.DAL
 
         public void Delete(data.Categories t)
         {
-            throw new NotImplementedException();
+            repo.Delete(t);
+            repo.Commit();
         }
 
         public IEnumerable<data.Categories> GetAll()
         {
-            throw new NotImplementedException();
+            return repo.GetAll();
         }
 
         public Task<IEnumerable<data.Categories>> GetAllAsync()
@@ -35,7 +36,7 @@ namespace BE.DAL
 
         public data.Categories GetOneById(int id)
         {
-            throw new NotImplementedException();
+            return repo.GetOnebyID(id);
         }
 
         public Task<data.Categories> GetOneByIdAsync(int id)
@@ -45,47 +46,13 @@ namespace BE.DAL
 
         public void Insert(data.Categories t)
         {
-            throw new NotImplementedException();
+            repo.Insert(t);
         }
 
         public void Update(data.Categories t)
         {
-            throw new NotImplementedException();
+            repo.Update(t);
         }
-        /* public void ICRUD<data.Categories> Delete(data.Categories t)
-{
-    repo.Delete(t);
-    repo.Commit();
-}
 
-public IEnumerable<data.Categories> ICRUD<data.Categories>.GetAll()
-{
-    return repo.GetAll();
-}
-
-public Task<IEnumerable<data.Categories>> ICRUD<data.Categories>.GetAllAsync()
-{
-    throw new NotImplementedException();
-}
-
-public data.Categories ICRUD<data.Categories>.GetOneById(int id)
-{
-    return repo.GetOnebyID(t);
-}
-
-public Task<data.Categories> ICRUD<data.Categories>.GetOneByIdAsync(int id)
-{
-    throw new NotImplementedException();
-}
-
-public void ICRUD<data.Categories>.Insert(data.Categories t)
-{
-    repo.Insert(t);
-}
-
-public void ICRUD<data.Categories>.Update(data.Categories t)
-{
-    repo.Update(t);
-}*/
     }
 }

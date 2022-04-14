@@ -8,8 +8,11 @@ using System.Threading.Tasks;
 
 namespace BE.API.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class CategoriesController : Controller
     {
+        
         private readonly NDbContext _context;
 
         public CategoriesController(NDbContext context)
@@ -20,8 +23,8 @@ namespace BE.API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Categories>>> GetCategories()
         {
-            return null;
-            //return new BE.BS.Categories(_context).GetAll()
+            //return null;
+            return new BE.BS.Categories(_context).GetAll().ToList();
         }
     }
 }
